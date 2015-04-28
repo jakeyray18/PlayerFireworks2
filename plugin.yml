@@ -1,0 +1,15 @@
+name: PlayerFireworks
+main: com.jakeyray18.PlayerFireworks2
+version: 1.0.0
+author: Jakeyray18
+commands:
+    Firework:
+        description: Launches a random firework.
+        usage: /<command>
+        permission: playerfireworks.launch
+        aliases: fw
+
+permissions:
+    playerfireworks.launch:
+        default: op
+        description: Allows launching of fireworks
